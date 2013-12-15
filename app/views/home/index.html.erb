@@ -1,5 +1,5 @@
 <h1>Bananas</h1>
 
 <% @images.each do |image| %>
-  <%= image_tag image['src'] %>
+  <%= image_tag use_large_image(image['src']) %>
 <% end %>
